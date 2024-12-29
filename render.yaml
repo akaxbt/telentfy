@@ -1,0 +1,12 @@
+version: "1"
+
+services:
+  - type: worker
+    name: python-starter-template
+    runtime: docker
+    repo: https://github.com/akaxbt/telentfy
+    plan: starter
+    envVars: []
+    region: singapore
+    dockerContext: .
+    dockerfilePath: ./Containerfile

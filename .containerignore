@@ -1,0 +1,45 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Ignore distribution and build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore test and coverage files
+*.log
+*.pot
+*.pyc
+*.pyo
+.coverage
+.coverage.*
+nosetests.xml
+test-results/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Docker-related files
+Dockerfile*
+.dockerignore
+
+# Ignore configuration files
+*.env
+*.ini
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other unnecessary files
+*.DS_Store
+Thumbs.db
